@@ -10,7 +10,7 @@ const Certifications = () => {
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-display font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 animate-gradient-text">
                         Certifications
                     </h2>
-                    <div className="space-y-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {certifications.map((cert) => (
                             <div key={cert.id} className="bg-white bg-opacity-5 rounded-lg p-6 backdrop-blur-sm transition duration-300 hover:bg-opacity-10 hover:shadow-lg transform hover:-translate-y-1">
                                 <Image src={cert.image} alt={`${cert.title} Preview`} width={500} height={300} className="w-full h-48 object-cover rounded-md mb-4" />
