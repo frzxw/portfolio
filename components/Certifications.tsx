@@ -13,7 +13,7 @@ const Certifications = () => {
                     <div className="space-y-8">
                         {certifications.map((cert) => (
                             <div key={cert.id} className="bg-white bg-opacity-5 rounded-lg p-6 backdrop-blur-sm transition duration-300 hover:bg-opacity-10 hover:shadow-lg transform hover:-translate-y-1">
-                                <Image src={cert.imageUrl} alt={`${cert.title} Preview`} width={500} height={300} className="w-full h-48 object-cover rounded-md mb-4" />
+                                <Image src={cert.image} alt={`${cert.title} Preview`} width={500} height={300} className="w-full h-48 object-cover rounded-md mb-4" />
                                 <h3 className="text-md sm:text-lg md:text-xl font-display font-semibold text-blue-400 mb-2">{cert.title}</h3>
                                 <p className="text-gray-300 mb-4 text-sm sm:text-base">{cert.institution}</p>
                                 <a href={cert.link} className="text-blue-300 hover:text-blue-100 transition duration-300 text-sm sm:text-base">
