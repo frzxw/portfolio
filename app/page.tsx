@@ -42,19 +42,19 @@ export default function Home() {
         <p className="mt-4 text-xl text-muted-foreground">Full Stack Developer</p>
 
         <div className="mt-8 flex justify-center space-x-4">
-          <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/frzxw" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="icon">
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </Button>
           </Link>
-          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://linkedin.com/in/frzxw" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="icon">
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </Button>
           </Link>
-          <Link href="mailto:jane.doe@example.com">
+          <Link href="mailto:frzwibisono@gmail.com">
             <Button variant="outline" size="icon">
               <Mail className="h-5 w-5" />
               <span className="sr-only">Email</span>
