@@ -11,14 +11,32 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "my-first-project",
-    title: "My First Project",
-    description: "An e-commerce website built with a modern tech stack, featuring product listings, cart, and checkout.",
-    content: `<p>This project showcases a basic but complete e-commerce web app built with full-stack JavaScript.</p>`,
-    image: "/placeholder.svg?height=600&width=1200",
-    tags: ["Next.js", "React", "TypeScript"],
-    github: "https://github.com/username/my-first-project",
-    demo: "https://demo-one.example.com",
+    slug: "portfolio-website",
+    title: "Portfolio Website",
+    description: "A personal website showcasing projects and blog posts.",
+    content: `
+        <p>
+          Built with <strong>Next.js</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong  >, this website is designed to be fast, responsive, and accessible.
+        </p>
+    
+        <p>
+          It features a clean UI powered by <strong>Radix UI</strong>, MDX-based blog integration, and reusable components for scalability.
+        </p>
+    
+        <h3>Key Features</h3>
+        <ul>
+          <li>Mobile-first layout</li>
+          <li>Optimized performance</li>
+          <li>Dark mode support</li>
+          <li>Reusable components</li>
+          <li>Node background animation</li>
+        </ul>
+    `,
+    image: "/images/portfolio-project.png?height=600&width=1200",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Radix UI"],
+    github: "https://github.com/frzxw/portfolio",
+    demo: "https://frzxw.me",
+     
   },
   {
     slug: "my-second-project",
